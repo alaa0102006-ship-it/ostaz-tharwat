@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #1e40af;
+  --secondary: #f59e0b;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  direction: rtl;
+}
