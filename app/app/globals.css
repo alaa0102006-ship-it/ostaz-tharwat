@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+  background: #0a0f1e;
+  color: #fff;
+  direction: rtl;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  font-family: inherit;
+}
+
+input,
+select {
+  font-family: inherit;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
